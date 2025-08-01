@@ -4,4 +4,8 @@ I built a sentiment analysis model to classify book reviews as either positive o
 
 ## Tools: Python, Pandas, scikit-learn, TensorFlow, Matplotlib, Keras
 
+# Analysis
 
+This version of the model appears to be the most balanced and generalizable. The test results showed 80% accuracy with a loss of 0.472, which indicates a reasonably good performance. I experimented with various hyperparameters and model adjustments, including adding regulazations, dropout layers, earlystopping, ReducedLROnPlateau, and removing a hidden layer.
+
+While these changes did not significantly improve accuracy, they did helped reduce the loss. Based on the results, I believe the model has no major overfitting issues and should generalize relatively well to new and unseen data. However, I do think there is still room for improvement, potentially by tuning the hyperparameters more precisely and using different models. 
